@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3cNIdch7cfe0XlxzthASU_eD5XCsbsUGww&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Courier New', Courier, monospace
+
+
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 6em;
+    height: auto;
+    transition: all 0.3s ease;
+
+}
+.logo:hover{
+    transform: scale(1.2);
+   }
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2em;
+   
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: darkorchid;
+    font-size: 1.2rem;
+    
+}
+li{
+    transition: all 0.3s ease;  
+}
+li:hover{
+    transform: scale(1.2);
+    background-color:darkgrey;
+    padding: .2em;
+    border-radius: 10%;
+   }
+h1, h2 {
+    text-align: center;
+    color: darkorchid;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    
+}
+h3, h5{
+    color: white;
+
+}
+.carousel-item img {
+    height: 30em; /* Establece la altura deseada para las imágenes */
+    
+}
+.card-img-top {
+    height: 200px; /* Establece la altura deseada para las imágenes */
+
+    border-radius: 20px;
+}
+
+.card {
+    color: darkorchid;
+        
+}
+.card.title{
+     margin-right: 12em;
+ }
+.footer {
+       
+     text-align: center;
+     color: darkorchid;
+     margin-top: 1em;
+       
+}
+
+
+@media screen and (max-width: 680px) {
+    .copy{
+        font-size: small;
+    }
+}
+

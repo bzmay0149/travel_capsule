@@ -1,0 +1,67 @@
+body {
+    width: 99%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3cNIdch7cfe0XlxzthASU_eD5XCsbsUGww&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 30em;
+    margin: 0 auto;
+    padding-top: 3em;
+    color: darkorchid;
+   
+  }
+  
+  .register-form {
+    background: #f7f7f7;
+    padding: 1.25em;
+    border-radius: 0.5em;
+    border: 3px solid rgba(236, 231, 231, 0.11);
+    box-shadow: 5px 5px 6px 4px rgb(112, 109, 109);
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.25em;
+  }
+  
+  .input-group {
+    margin-bottom: 0.9em;
+    margin-right: .8em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.625em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.8em;
+    background: darkorchid;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
