@@ -65,3 +65,10 @@ body {
     text-decoration: none;
     color: white;
   }
+  .ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}
